@@ -7,13 +7,13 @@ function login(){
         console.log("Your email is correct.");
         document.getElementById("success-msg").innerHTML = "Your email is corrrect";
    
-    }else(email==="Andeojeric86@gamil.com")
-    {
+    }else(email==="Andeojeric86@gamil.com" && password==="7654321"){
+    
         console.log("Your email is incorrect.");
         document.getElementById("error-msg").innerHTML = "Your email is incorrect";
     }
 
-    if(password==="Jericandeo@080505"){
+    if(password==="7654321"){
             console.log("Your password is correct");
 
         }else{
@@ -23,4 +23,4 @@ function login(){
            
     }
 
-} 
+ 
